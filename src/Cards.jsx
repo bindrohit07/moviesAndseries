@@ -2,6 +2,7 @@ import React from "react";
 function Cards(){
     return(
        <>
+       <h1> Rohit Kumar Bind</h1>
         <div className='cards'>
         <div className='card'> 
         <img  className='kgf' src='https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/49d679a2183c1faa41805762e8d1b709b590397aa80af64ca013adbcdfb4c34b._V_SX1440_.jpg' alt='kgf'></img>
