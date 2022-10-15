@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -34,8 +34,9 @@
   }
   to {
     transform: rotate(360deg);
-  }
+  } */
 body{
+  box-sizing: border-box;
   background-color: aqua;
 }
 .heading{
@@ -45,14 +46,29 @@ body{
   }
   .cards{
     display: flex;
-    
   }
+  
+.card{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-bottom: 7px;
+  margin: auto;
+}
   .kgf{
+    border-radius: 5px;
     width: 400px;
     height: auto;
-    padding: 10px 10px;
   }
   .btn{
-    background-color: green;
-    text-decoration: none;
-  }
+    background-color: rgb(220, 10, 31);
+    border: 0px solid red;
+    border-width: 7px;
+    border-radius: 4px;
+    }
+.btn a{
+  text-decoration: none;
+  color: yellow;
+}
+.footer{
+  text-align: center;
+}
